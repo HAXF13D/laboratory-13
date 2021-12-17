@@ -8,10 +8,10 @@ def individual_func(*args):
         flag = 0
         for arg in args:
             if isinstance(arg, (float, int, str)):
-                if int(arg) < 0:
+                if float(arg) < 0:
                     flag += 1
                 elif flag == 1:
-                    result += int(arg)
+                    result += float(arg)
         if flag == 1:
             result = 0
         return result

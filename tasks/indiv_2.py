@@ -28,7 +28,7 @@
 
 
 def individual_func_2(**kwargs):
-    print("YES")
+    return "YES"
 
 
 if __name__ == "__main__":

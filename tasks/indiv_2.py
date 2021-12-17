@@ -26,11 +26,12 @@
 
 """
 
+
 def individual_func_2(**kwargs):
     print("YES")
 
 
 if __name__ == "__main__":
-    print(individual_func_2(amount_of_weapons={"Gunner" : 1, "Killer": 2}))
+    print(individual_func_2(amount_of_weapons={"Gunner": 1, "Killer": 2}))
     print(individual_func_2(season="winter"))
     print(individual_func_2(home="building", weather="rain"))
